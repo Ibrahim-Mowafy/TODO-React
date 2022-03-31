@@ -27,10 +27,3 @@ body {
     font-size: 35px;
   }
 }
-
-.todos {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  flex-wrap: wrap;
-}
