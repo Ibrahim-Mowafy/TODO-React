@@ -13,6 +13,7 @@
   border: none;
   transition: 0.2s;
   box-shadow: inset 0 0 5px black;
+  font-family: "Neucha", cursive;
 }
 
 .input__box:focus {
@@ -30,9 +31,12 @@
   border: none;
   font-size: 15px;
   background-color: #2f74c0;
-  color: white;
+  color: #fff;
   transition: 0.2s all;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px #000;
+  font-family: "Neucha", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .input__submit:hover {
@@ -66,7 +70,7 @@
 }
 
 .dragcomplete {
-  background-color: rgb(255, 38, 0);
+  background-color: rgb(255, 38, 0) !important;
 }
 
 .remove {
